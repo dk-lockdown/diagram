@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T08:48:09.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.2.3" etag="VSQ_fxelGGPngAxYAcuQ" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-11T08:51:31.570Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.2.3" etag="bvdaA-EpKmNl63CIyqKz" type="github" pages="4">
   <diagram id="f866998c-e1f6-ae49-016c-d1f7356a9a6c" name="三层架构">
     <mxGraphModel dx="946" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -172,8 +172,8 @@
         <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;" parent="1" source="10" target="28" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="37" value="分布式事务" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="1" vertex="1">
-          <mxGeometry x="610" y="370" width="100" height="60" as="geometry"/>
+        <mxCell id="37" value="用户有哪些角色，角色上挂了哪些用户，分别属于什么领域" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="1" vertex="1">
+          <mxGeometry x="620" y="140" width="160" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
