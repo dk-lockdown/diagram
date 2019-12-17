@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-17T07:31:58.122Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="nTRFrZQl1OU5_QxKQ4AZ" version="12.4.2" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-17T07:47:00.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="fsFp0iMcNsikTPleVRbs" version="12.4.2" type="github" pages="3">
   <diagram id="hpy9bZ58W7uLl9hxA-Dw" name="BigWheel-Job">
     <mxGraphModel dx="946" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,29 @@
         </mxCell>
         <mxCell id="yVeMU9E1oosOEePWJoE1-18" value="检查用户中奖次数限制，如达到上限，将中奖概率设置为0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="N66UEKQcvrAVynlwN7qd-1">
           <mxGeometry x="105" y="450" width="80" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NovtTXWVXjk_tk5aumW9" name="BigWheel-创建">
+    <mxGraphModel dx="946" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-0"/>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-1" parent="UGRrFTHjEDf2F1H0PXcp-0"/>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="UGRrFTHjEDf2F1H0PXcp-1">
+          <mxGeometry x="300" y="70" width="230" height="490" as="geometry"/>
+        </mxCell>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-3" value="创建" style="swimlane;html=1;startSize=20;" vertex="1" parent="UGRrFTHjEDf2F1H0PXcp-2">
+          <mxGeometry y="20" width="230" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UGRrFTHjEDf2F1H0PXcp-3" source="UGRrFTHjEDf2F1H0PXcp-8" target="UGRrFTHjEDf2F1H0PXcp-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-8" value="创建大转盘主表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UGRrFTHjEDf2F1H0PXcp-3">
+          <mxGeometry x="55" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="UGRrFTHjEDf2F1H0PXcp-9" value="计算每个奖项每天的奖品分配数，写入awardeachday&lt;br&gt;每日奖品记录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UGRrFTHjEDf2F1H0PXcp-3">
+          <mxGeometry x="55" y="200" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
